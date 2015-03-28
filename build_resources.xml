@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Client" default="jar-resources">
+	<target name="jar-resources" >
+		<jar destfile="libs/resources.jar" basedir="." includes="resources/**" />
+	</target>
+</project>
